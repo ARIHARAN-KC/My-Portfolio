@@ -1,0 +1,37 @@
+.contact-page .contact-form {
+  width: 100%; /* Ensures form takes up full width of container */
+  max-width: 600px; /* Limit form width for better readability */
+  display: flex;
+  flex-direction: column; /* Align elements vertically */
+  gap: 1rem; /* Space between form elements */
+  padding: 2rem; /* Internal padding */
+  background-color: #ffffff; /* Background for contrast */
+  border-radius: 8px; /* Rounded corners for form */
+  box-shadow: 0 4px 8px rgba(52, 77, 219, 0.05); /* Subtle shadow */
+  border: 1px solid #e0e0e0; /* Light border for definition */
+}
+
+.contact-page .contact-form input,
+.contact-page .contact-form textarea {
+  width: 100%; /* Full width for input fields */
+  padding: 0.75rem; /* Spacing inside input fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-page .contact-form button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2d2ae0; /* Button color */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-page .contact-form button:hover {
+  background-color: #154add;
+}
